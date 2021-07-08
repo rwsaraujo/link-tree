@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: #002366;
+}
+
+.main {
+    width: 100%;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.main-profile {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.main-profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 3px solid #222;
+}
+
+.main-profile-info h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.main-profile-info h2 {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-links {
+    width: 500px;
+    height: 300px;
+    border: 5px solid #222;
+    border-radius: 25px;
+    background-color: #6A5ACD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-links button {
+    width: 157px;
+    height: 40px;
+    border: 3px solid #222;
+    border-radius: 25px;
+    background-color: #002366;
+    color: #fafafa;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 10px 0;
+    cursor: pointer;
+}
