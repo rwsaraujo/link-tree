@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
-    background-color: #002366;
+    background-color: #fafafa;
 }
 
 .main {
@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fafafa;
+    color: #222;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
@@ -31,7 +31,7 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50px;
-    border: 3px solid #222;
+    border: 1px solid #222;
 }
 
 .main-profile-info h1 {
@@ -48,9 +48,9 @@ body {
 .main-links {
     width: 300px;
     height: 300px;
-    border: 5px solid #222;
+    border: 1px solid #222;
     border-radius: 25px;
-    background-color: #6A5ACD;
+    background-color: #fafafa;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,12 +60,17 @@ body {
 .main-links button {
     width: 157px;
     height: 40px;
-    border: 3px solid #222;
+    border: 1px solid #222;
     border-radius: 25px;
-    background-color: #002366;
-    color: #fafafa;
+    background-color: #fafafa;
+    color: #222;
     font-size: 24px;
     font-weight: 300;
     margin: 10px 0;
     cursor: pointer;
+}
+
+.main-links button:hover {
+    background-color: #222;
+    color: #fafafa;
 }
