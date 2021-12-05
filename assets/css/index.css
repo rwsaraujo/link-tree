@@ -21,6 +21,7 @@ body {
 .main {
     width: calc(100% - 20px);
     gap: 60px;
+    margin: 0 auto;
 }
 
 .column {
