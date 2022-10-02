@@ -1,77 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 
 .txt-black {
-    color: #111;
+  color: #111;
 }
 
 .bg-white {
-    background-color: #fafafa;
+  background-color: #fafafa;
 }
 
 .border {
-    border: 1px solid #111;
-    border-radius: 25px;
+  border: 1px solid #111;
+  border-radius: 1.5rem;
 }
 
 .main {
-    width: calc(100% - 20px);
-    gap: 60px;
-    margin: 0 auto;
+  width: calc(100% - 1.25rem);
+  gap: 4rem;
+  margin: 0 auto;
 }
 
 .column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-profile {
-    gap: 20px;
-    margin: 60px auto 0;
+  gap: 1.15rem;
+  margin: 4rem auto 0;
 }
 
 .main-profile-picture img {
-    width: 100px;
-    border-radius: 50px;
+  width: 6.25rem;
+  border-radius: 50%;
 }
 
 .main-profile-info {
-    gap: 12px;
+  gap: 0.75rem;
 }
 
 .main-profile-info h1 {
-    font-size: 2.25rem;
+  font-size: 2.25rem;
 }
 
 .main-profile-info h2 {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .main-links {
-    width: 300px;
-    height: 300px;
-    justify-content: center;
+  width: 18.75rem;
+  height: 18.75rem;
+  justify-content: center;
 }
 
-.main-links button, .main-links button:hover {
-    transition: .3s;
+.main-links button,
+.main-links button:hover {
+  transition: 0.4s;
 }
 
 .main-links button {
-    width: 160px;
-    height: 40px;
-    font-size: 1.5rem;
-    margin: 10px 0;
-    cursor: pointer;
+  width: 10rem;
+  height: 2.25rem;
+  font-size: 1.5rem;
+  margin: 0.625rem 0;
+  cursor: pointer;
 }
 
 .main-links button:hover {
-    background-color: #111;
-    color: #fafafa;
-    transform: scale(1.1);
+  background-color: #111;
+  color: #fafafa;
+  transform: scale(1.1);
 }
