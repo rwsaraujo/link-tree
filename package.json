@@ -1,0 +1,9 @@
+{
+  "name": "link-tree",
+  "version": "1.0.0",
+  "description": "Simple design of a link page inspired by the link-tree.",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Raphael Araujo",
+  "license": "ISC"
+}
