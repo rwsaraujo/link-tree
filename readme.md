@@ -1,16 +1,16 @@
-# Link-tree''
+# Link-tree
 
-Projeto simples de uma página de links inspirado no link-tree.
+Simple design of a link page inspired by the link-tree.
 
-Logo abaixo você poderá encontrar o link para o deploy do projeto.
+Below you can find the link to deploy the project.
 
-| Sobre       |                                                                                      |
-| ----------- | ------------------------------------------------------------------------------------ |
-| Nome        | **Link-tree**                                                                        |
-| Tecnologias | HTML5 e CSS3                                                                         |
-| URL         | [**https://rwsaraujo.github.io/link-tree/**](https://rwsaraujo.github.io/link-tree/) |
+| About        |                                                                                      |
+| ------------ | ------------------------------------------------------------------------------------ |
+| Name         | **Link-tree**                                                                        |
+| Technologies | HTML5 e CSS3                                                                         |
+| URL          | [**https://rwsaraujo.github.io/link-tree/**](https://rwsaraujo.github.io/link-tree/) |
 
-## Tecnologias do projeto
+## Project technologies
 
 <div>
   <img src="https://img.shields.io/badge/html5-f75421?style=for-the-badge&logo=html5&logoColor=fff">
