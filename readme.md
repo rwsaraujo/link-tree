@@ -7,7 +7,7 @@ Below you can find the link to deploy the project.
 | About        |                                                                                      |
 | ------------ | ------------------------------------------------------------------------------------ |
 | Name         | **Link-tree**                                                                        |
-| Technologies | HTML5 e CSS3                                                                         |
+| Technologies | HTML5 & CSS3                                                                         |
 | URL          | [**https://rwsaraujo.github.io/link-tree/**](https://rwsaraujo.github.io/link-tree/) |
 
 ## Project technologies
