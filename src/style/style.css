@@ -1,81 +1,99 @@
+/* ----- RESET STYLE ----- */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem; /* 16px */
+  line-height: 1; /* 100% */
+  font-weight: 400; /* normal */
 }
 
-body {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
+/* ----- COLORS -BACKGROUND ----- */
+.bg-white {
+  background: #fafafa;
 }
-
+/* ----- COLORS - TEXT ----- */
 .txt-black {
   color: #111;
 }
 
-.bg-white {
-  background-color: #fafafa;
+/* ----- TYPOGRAPHY -----*/
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-.border {
-  border: 1px solid #111;
-  border-radius: 1.5rem;
-}
-
-.main {
-  width: calc(100% - 1.25rem);
-  gap: 4rem;
-  margin: 0 auto;
-}
-
-.column {
+/* ----- USEFUL ----- */
+.flex {
   display: flex;
+}
+.column {
   flex-direction: column;
+}
+.center {
+  justify-content: center;
   align-items: center;
 }
-
-.main-profile {
-  gap: 1.15rem;
-  margin: 4rem auto 0;
-}
-
-.main-profile-picture img {
-  width: 6.25rem;
+.rounded {
   border-radius: 50%;
 }
-
-.main-profile-info {
-  gap: 0.75rem;
+.border {
+  border: 1px solid #111;
 }
-
-.main-profile-info h1 {
-  font-size: 2.25rem;
-}
-
-.main-profile-info h2 {
-  font-size: 1rem;
-}
-
-.main-links {
-  width: 18.75rem;
-  height: 18.75rem;
+.btn {
+  width: 100%;
+  max-width: 18.75rem; /* 160px */
+  height: 3rem; /* 48px */
+  display: flex;
   justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid #111;
+  border-radius: 24px;
+  background: #f0f0f0;
+  color: #111;
+  transition: 0.2s;
 }
-
-.main-links button,
-.main-links button:hover {
-  transition: 0.4s;
-}
-
-.main-links button {
-  width: 10rem;
-  height: 2.25rem;
-  font-size: 1.5rem;
-  margin: 0.625rem 0;
-  cursor: pointer;
-}
-
-.main-links button:hover {
-  background-color: #111;
-  color: #fafafa;
+.btn:hover {
+  background: #111;
+  color: #f0f0f0;
   transform: scale(1.1);
+}
+.btn i {
+  font-size: 2rem; /* 32px */
+}
+.link {
+  color: #111;
+}
+.link:hover {
+  font-weight: 900;
+}
+
+/* ----- MAIN ----- */
+.main {
+  min-height: calc(100vh - 2.5rem); /* 100vh - 40px */
+  padding: 0.625rem; /* 10px */
+  gap: 2rem; /* 32px */
+}
+/* ----- MAIN - PROFILE ----- */
+.profile {
+  gap: 0.5rem; /* 8px */
+}
+.profile__avatar {
+  width: 6.25rem; /* 100px */
+}
+.profile__avatar img {
+  width: 100%;
+}
+.profile h1 {
+  font-size: 2rem; /* 32px */
+}
+/* ----- MAIN - SOCIAL LINKS ----- */
+.social-links {
+  gap: 1rem; /* 16px */
+  width: 100%;
+}
+
+/* ----- FOOTER ----- */
+.footer {
+  height: 2.5rem; /* 40px */
 }
