@@ -25,9 +25,8 @@ This is a links page inspired by LinkTree.
 
 ### Built with
 
-- HTML5
-- CSS3
-- CSS3 Flex Box
+- HTML
+- CSS Flex Box
 - JavaScript
 
 ## Author
