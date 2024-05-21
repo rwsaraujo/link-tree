@@ -1,18 +1,35 @@
-# Link-tree
+# Link Tree
 
-Simple design of a link page inspired by the link-tree.
+This is a links page inspired by LinkTree.
 
-Below you can find the link to deploy the project.
+## Table of contents
 
-| About        |                                                                                      |
-| ------------ | ------------------------------------------------------------------------------------ |
-| Name         | **Link-tree**                                                                        |
-| Technologies | HTML5 & CSS3                                                                         |
-| URL          | [**https://rwsaraujo.github.io/link-tree/**](https://rwsaraujo.github.io/link-tree/) |
+- [Overview](#overview)
+  - [Preview](#preview)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-## Project technologies
+## Overview
 
-<div>
-  <img src="https://img.shields.io/badge/html5-f75421?style=for-the-badge&logo=html5&logoColor=fff">
-  <img src="https://img.shields.io/badge/CSS3-3595cf?style=for-the-badge&logo=css3&logoColor=white">
-</div>
+### Preview
+
+![](./src/img/preview.gif)
+
+### Links
+
+- Live Site URL: [Live Site](https://rwsaraujo.github.io/link-tree/)
+
+## My process
+
+### Built with
+
+- HTML5
+- CSS3
+- CSS3 Flex Box
+- JavaScript
+
+## Author
+
+- GitHub - [rwsaraujo](https://github.com/rwsaraujo)
